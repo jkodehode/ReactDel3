@@ -1,0 +1,47 @@
+.input {
+  padding: 10px 20px;
+  font-size: 20px;
+  min-width: 50px;
+  text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.description {
+  padding: 0px 50px;
+}
+
+.cpPriceBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(203, 234, 255);
+  margin: 10px 400px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+.cpHeaderText {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.cpDataBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.cpDataBox p {
+  margin: 5px 10px;
+}
